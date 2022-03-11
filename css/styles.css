@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.home-page {
+  background-image: url("../images/backgrounds/hero_image.jpg");
+}
+
+.services {
+  background-image: url("../images/backgrounds/services_image.jpg");
+}
