@@ -10,3 +10,7 @@ body {
 .services {
   background-image: url("../images/backgrounds/services_image.jpg");
 }
+
+.contact-us {
+  background-image: url("../images/backgrounds/contact_us_image.jpg");
+}

@@ -88,19 +88,25 @@
     </section>
 
     <!-- Contact us section -->
-    <section class="contact-us mt-4 mb-4 text-center">
-        <h3>CONTACT US</h3>
-        <form>
-            <div class="form-group px-4 d-flex flex-row justify-content-center">
-                <label for="name"></label>
-                <input type="text" class="form-control" id="name-input" placeholder="Name...">
+    <section class="contact-us mt-4 mb-5 text-light text-center">
+            <h3>CONTACT US</h3>
+            <div class="form-group d-flex flex-row justify-content-center mt-4 mb-5">
+                <!-- Name and email input -->
+                <div class="col-xs-4 px-4">
+                    <label for="name"></label>
+                    <input type="text" class="form-control" id="name-input" placeholder="Name...">
+                </div>
+                <div class="col-xs-4 px-4">
+                    <label for="email"></label>
+                    <input type="email" class="form-control" id="email-input" placeholder="Email...">
+                </div>
             </div>
-            <div class="form-group px-4 d-flex flex-row justify-content-center">
-                <label for="email"></label>
-                <input type="email" class="form-control" id="email-input" placeholder="Email...">
+             <!-- Message input -->
+             <div class="form-group d-flex justify-content-center px-5">
+                <label for="textarea"></label>
+                <textarea class="form-control" id="text-area" placeholder="Your message here..." rows="3"></textarea>
             </div>
-        </form>
-
+        </div>
     </section>
   
     
