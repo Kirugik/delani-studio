@@ -5,6 +5,7 @@ body {
   height: 100%;
 }
 
+/* Landing page */
 #home {
   width: 95%;
   height: 100%;
@@ -17,22 +18,30 @@ body {
   background-position: center;
 }
 
+/* Services section */
 .services {
   width: 95%;
   margin: 0 auto;
   background-image: url("../images/backgrounds/services_image.jpg");
 }
 
+/* 'What we do' section */
 #products {
   width: 95%;
   margin: 0 auto;
 }
 
+#products p {
+  display: none;
+}
+
+/* Portfolio section */
 #portfolio {
   width: 95%;
   margin: 0 auto;
 }
 
+/* Contact us section */
 #contact {
   width: 95%;
   margin: 0 auto;
@@ -59,6 +68,7 @@ body {
   background-image: url("../images/backgrounds/contact_us_image.jpg");
 }
 
+/* Socials section */
 #socials {
   width: 95%;
   margin: 0 auto;
