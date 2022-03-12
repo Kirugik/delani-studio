@@ -23,6 +23,16 @@ body {
   background-image: url("../images/backgrounds/services_image.jpg");
 }
 
+#products {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#contact {
+  width: 95%;
+  margin: 0 auto;
+}
+
 #contact input,
 #contact textarea {
   background: transparent;
