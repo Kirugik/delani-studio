@@ -35,6 +35,15 @@ body {
   display: none;
 }
 
+#design-icon,
+#design-para,
+#development-icon,
+#development-para,
+#prod-icon,
+#prod-para {
+  cursor: pointer;
+}
+
 /* Portfolio section */
 #portfolio {
   width: 95%;
