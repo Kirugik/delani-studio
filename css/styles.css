@@ -3,6 +3,7 @@ body {
   padding: 0;
   min-height: 100vh;
   height: 100%;
+  font-family: "PT Sans", sans-serif;
 }
 
 /* Landing page */
@@ -61,6 +62,7 @@ body {
   background: transparent;
   border: 1px solid white;
   color: white;
+  font-size: 25px;
 }
 
 #contact input::placeholder {
