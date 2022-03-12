@@ -28,6 +28,11 @@ body {
   margin: 0 auto;
 }
 
+#portfolio {
+  width: 95%;
+  margin: 0 auto;
+}
+
 #contact {
   width: 95%;
   margin: 0 auto;
@@ -52,4 +57,9 @@ body {
 
 .contact-us {
   background-image: url("../images/backgrounds/contact_us_image.jpg");
+}
+
+#socials {
+  width: 95%;
+  margin: 0 auto;
 }
