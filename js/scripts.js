@@ -120,3 +120,21 @@ $(document).ready(function () {
     });
 });
 
+
+//Contact form message alert on submit 
+$(document).ready(function () {
+    $("form#contact-form").submit(function (event) {
+        event.preventDefault();
+        let name = $("#name-input").val();
+        let email = $("#email-input").val();
+        let message = $("#text-area").val();
+
+        if ($("#name-input").val() && $("#email-input").val()) {
+            alert(name + "your message is sent.");
+        }
+        else {
+            alert("You must enter your name and email address.");
+        }
+    });
+});
+
