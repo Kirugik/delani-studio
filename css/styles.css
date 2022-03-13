@@ -118,6 +118,12 @@ body {
   background-image: url("../images/backgrounds/contact_us_image.jpg");
 }
 
+.contact-us button {
+  color: white;
+  font-size: 25px;
+  border: 1px solid white;
+}
+
 /* Socials section */
 #socials {
   width: 95%;
