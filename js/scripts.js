@@ -124,16 +124,16 @@ $(document).ready(function () {
 //Contact form message alert on submit 
 $(document).ready(function () {
     $("form#contact-form").submit(function (event) {
-        event.preventDefault();
-        let name = $("#name-input").val();
-        let email = $("#email-input").val();
-        let message = $("#text-area").val();
+        // event.preventDefault();
+        var name = $("#name-input").val();
+        var email = $("#email-input").val();
+        var message = $("#text-area").val();
 
         if ($("#name-input").val() && $("#email-input").val()) {
-            alert(name + "your message is sent.");
+            alert(name + ", your message has been received. Thankyou for contacting us.");
         }
         else {
-            alert("You must enter your name and email address.");
+            alert("Error! Name and email fields cannot be empty.");
         }
     });
 });
