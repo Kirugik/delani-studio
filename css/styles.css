@@ -51,6 +51,45 @@ body {
   margin: 0 auto;
 }
 
+#project1,
+#project2,
+#project3,
+#project4,
+#project5,
+#project6,
+#project7,
+#project8 {
+  position: relative;
+  text-align: center;
+}
+
+#project1 img,
+#project2 img,
+#project3 img,
+#project4 img,
+#project5 img,
+#project6 img,
+#project7 img,
+#project8 img {
+  cursor: pointer;
+}
+
+#project-one,
+#project-two,
+#project-three,
+#project-four,
+#project-five,
+#project-six,
+#project-seven,
+#project-eight {
+  font-size: 30px;
+  color: darkblue;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  display: none;
+}
+
 /* Contact us section */
 #contact {
   width: 95%;
