@@ -124,6 +124,12 @@ body {
   border: 1px solid white;
 }
 
+#display {
+  font-size: 30px;
+  color: yellow;
+  font-style: italic;
+}
+
 /* Socials section */
 #socials {
   width: 95%;

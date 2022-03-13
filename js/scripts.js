@@ -121,19 +121,21 @@ $(document).ready(function () {
 });
 
 
-//Contact form message alert on submit 
+//User alert message on submitting contact form
 $(document).ready(function () {
     $("form#contact-form").submit(function (event) {
-        // event.preventDefault();
+        event.preventDefault();
         var name = $("#name-input").val();
         var email = $("#email-input").val();
         var message = $("#text-area").val();
 
-        if ($("#name-input").val() && $("#email-input").val()) {
-            alert(name + ", your message has been received. Thankyou for contacting us.");
+        var display = document.getElementById("display");
+
+        if ($("#name-input").val() && $("#email-input").val() && ($("#text-area").val() !== "")) {
+            display.innerHTML =`<p> ${name}, your message has been received. Thankyou for contacting us.</p>` 
         }
         else {
-            alert("Error! Name and email fields cannot be empty.");
+            display.innerHTML =`<p>Error! Name, email, and/or textarea fields cannot be empty.</p>`
         }
     });
 });
